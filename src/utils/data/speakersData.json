@@ -1,0 +1,137 @@
+[
+  {
+    "company": "Stripe",
+    "linkedin": "https://www.linkedin.com/in/patrickcollison/",
+    "name": "Patrick Collison",
+    "jobtitle": "CEO and Cofounder",
+    "photo": "https://res.cloudinary.com/dhws4e2ty/image/upload/v1705315758/stripe/Patrick_Stripe_xafzit.jpg",
+    "active": false,
+    "id": 1
+  },
+  {
+    "company": "Stripe",
+    "linkedin": "https://www.linkedin.com/in/johnbcollison/",
+    "name": "John Collison",
+    "jobtitle": "President and Cofounder",
+    "photo": "https://res.cloudinary.com/dhws4e2ty/image/upload/v1705315757/stripe/John_Stripe_vqvmcy.jpg",
+    "active": false,
+    "id": 2
+  },
+  {
+    "company": "Stripe",
+    "linkedin": "https://www.linkedin.com/in/william-gaybrick-5730347/",
+    "name": "Will Gaybrick",
+    "jobtitle": "President, Product and Business",
+    "photo": "https://res.cloudinary.com/dhws4e2ty/image/upload/v1705315759/stripe/Will_Stripe_wizj5m.jpg",
+    "active": false,
+    "id": 3
+  },
+  {
+    "company": "Stripe",
+    "linkedin": "https://www.linkedin.com/in/eileenomara/?originalSubdomain=ie",
+    "name": "Eileen O’Mara",
+    "jobtitle": "Chief Revenue Officer",
+    "photo": "https://res.cloudinary.com/dhws4e2ty/image/upload/v1705315757/stripe/Eileen_Stripe_bapb2f.jpg",
+    "active": false,
+    "id": 4
+  },
+  {
+    "company": "Stripe",
+    "linkedin": "https://www.linkedin.com/in/davidpsingleton/",
+    "name": "David Singleton",
+    "jobtitle": "Chief Technology Officer",
+    "photo": "https://res.cloudinary.com/dhws4e2ty/image/upload/v1705315757/stripe/David_Stripe_vfmjvb.jpg",
+    "active": false,
+    "id": 5
+  },
+  {
+    "company": "Stripe",
+    "linkedin": "https://www.linkedin.com/in/egsands/",
+    "name": "Emily Sands",
+    "jobtitle": "Head of Information",
+    "photo": "https://res.cloudinary.com/dhws4e2ty/image/upload/v1705315757/stripe/Emily_Stripe_mi5tj6.jpg",
+    "active": false,
+    "id": 6
+  },
+  {
+    "company": "Stripe",
+    "linkedin": "https://www.linkedin.com/in/katie-dill-79168b3/",
+    "name": "Katie Dill",
+    "jobtitle": "Head of Design",
+    "photo": "https://res.cloudinary.com/dhws4e2ty/image/upload/v1705315758/stripe/Katie_Dill_za5smi.jpg",
+    "active": false,
+    "id": 7
+  },
+  {
+    "company": "Anthropic",
+    "linkedin": "https://www.linkedin.com/in/daniela-amodei-790bb22a/",
+    "name": "Daniela Amodei",
+    "jobtitle": "President and Cofounder",
+    "photo": "https://res.cloudinary.com/dhws4e2ty/image/upload/v1705315757/stripe/Daniela_Anthropic_oxzwqu.jpg",
+    "active": true,
+    "id": 8
+  },
+  {
+    "company": "PGA of America",
+    "linkedin": "https://www.linkedin.com/in/georgewhitaker/",
+    "name": "George Whitaker",
+    "jobtitle": "Senior Director, Enterprise Technology",
+    "photo": "https://res.cloudinary.com/dhws4e2ty/image/upload/v1705315757/stripe/George_PGA_zl07na.jpg",
+    "active": false,
+    "id": 9
+  },
+  {
+    "company": "Wiley",
+    "linkedin": "https://www.linkedin.com/in/brendangualdoni/",
+    "name": "Brendan Gualdoni",
+    "jobtitle": "Head of Digital Commerce Platforms",
+    "photo": "https://res.cloudinary.com/dhws4e2ty/image/upload/v1705315757/stripe/Brendan_Wiley_skrnun.jpg",
+    "active": false,
+    "id": 10
+  },
+  {
+    "company": "Xero",
+    "linkedin": "https://www.linkedin.com/in/leighoneill1/",
+    "name": "Leigh O’Neill",
+    "jobtitle": "EGM Money",
+    "photo": "https://res.cloudinary.com/dhws4e2ty/image/upload/v1705315758/stripe/Leight_Xero_hkucbc.jpg",
+    "active": false,
+    "id": 11
+  },
+  {
+    "company": "Lightspeed",
+    "linkedin": "https://www.linkedin.com/in/ryant/",
+    "name": "Ryan Tabone",
+    "jobtitle": "Chief Product and Technology Officer",
+    "photo": "https://res.cloudinary.com/dhws4e2ty/image/upload/v1705315758/stripe/Ryan_Lightspeed_elrvom.jpg",
+    "active": false,
+    "id": 12
+  },
+  {
+    "company": "Kajabi",
+    "linkedin": "https://www.linkedin.com/in/stephanie-visessung/",
+    "name": "Stephanie Visessung",
+    "jobtitle": "Head of Commerce",
+    "photo": "https://res.cloudinary.com/dhws4e2ty/image/upload/v1705315759/stripe/Stephanie_Kajabi_bfkyvj.jpg",
+    "active": false,
+    "id": 13
+  },
+  {
+    "company": "Squarespace",
+    "linkedin": "https://www.linkedin.com/in/danchandre/",
+    "name": "Dan Chandre",
+    "jobtitle": "Head of Acuity and Payments",
+    "photo": "https://res.cloudinary.com/dhws4e2ty/image/upload/v1705315757/stripe/Dan_Chandre_tvatwp.jpg",
+    "active": false,
+    "id": 14
+  },
+  {
+    "company": "Sotheby's",
+    "linkedin": "https://www.linkedin.com/in/anu-ramanathan-982416/",
+    "name": "Anu Ramanathan",
+    "jobtitle": "SVP, Head of Product and Design",
+    "photo": "https://res.cloudinary.com/dhws4e2ty/image/upload/v1705315757/stripe/Anu_Sothebys_abdhap.jpg",
+    "active": false,
+    "id": 15
+  }
+]

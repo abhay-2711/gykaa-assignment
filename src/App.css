@@ -1,0 +1,326 @@
+@import "./styles/fonts.css";
+
+:root {
+  /* General */
+  --max-width-base: 1480;
+  --max-width: calc(var(--max-width-base) * 1px);
+  --scrollbar-width: 0px;
+  --window-width: calc(100vw - var(--scrollbar-width));
+  --border-radius: 12px;
+
+  /* Colors */
+  --foreground-rgb: 0,0,0;
+  --background-color: 255,255,255;
+  --pulse-color: #DE75BD;
+  --color-black-primary: #221B35;
+  --color-white-primary: #FFFFFF;
+
+  /* Buttons */
+  --button-height: var(--grid-column-width);
+  --button-background: hsla(0,0%,100%,.15);
+  --button-color: var(--color-black-primary);
+  --button-border: 1px solid var(--button-color);
+  --button-font: normal var(--font-size-subtitle-scalable) /1.02 var(--font-regular);
+
+  --footer-button-height: calc(2 * var(--grid-column-width));
+  --footer-button-background: hsla(0,0%,100%,.25);
+  --footer-button-color: var(--color-white-primary);
+  --footer-button-border: 2px solid var(--footer-button-color);
+  --footer-button-font: normal var(--font-size-title-scalable) /1.02 var(--font-regular);
+  @media screen and (max-width: 940px) {
+    --footer-button-height: calc(1 * var(--grid-column-width));
+    --footer-button-font: normal var(--font-size-subtitle-scalable) /1.02 var(--font-regular);
+  }
+
+  /* Paddings */
+  --space-base-unit: 4px;
+  --space-2: calc(var(--space-base-unit) * 0.5);
+  --space-4: calc(var(--space-base-unit) * 1);
+  --space-8: calc(var(--space-base-unit) * 2);
+  --space-12: calc(var(--space-base-unit) * 3);
+  --space-16: calc(var(--space-base-unit) * 4);
+  --space-20: calc(var(--space-base-unit) * 5);
+  --space-24: calc(var(--space-base-unit) * 6);
+  --space-32: calc(var(--space-base-unit) * 8);
+  --space-40: calc(var(--space-base-unit) * 10);
+  --space-44: calc(var(--space-base-unit) * 11);
+  --space-48: calc(var(--space-base-unit) * 12);
+  --space-56: calc(var(--space-base-unit) * 14);
+  --space-64: calc(var(--space-base-unit) * 16);
+
+  /* Grid variables */
+  --grid-gutter-width: 20px;
+  --grid-column-count: 8;
+  --grid-column-width-base: 90;
+  --grid-column-width: calc((var(--window-width) - calc(var(--grid-gutter-width) * 2)) / var(--grid-column-count));
+  --line-color: rgba(var(--foreground-rgb),0.15);
+
+  /* Font Family */
+  --font-regular: "sohneregular", system-ui, sans-serif;
+  --font-bold: "sohnekrftig", system-ui, sans-serif;
+  --font-italics: "sohnekursiv", system-ui, sans-serif;
+  --font-mono: "sohne_monoregular" ,ui-monospace, monospace;
+  --font-mono-semibold: "sohne_monokrftig", ui-monospace, monospace;
+
+  /* Font weights */
+  --font-weight-normal: 300;
+  --font-weight-semibold: 400;
+  --font-weight-bold: 500;
+
+  /* Font sizes */
+  --font-body: var(--font-weight-normal) 14px/1.2 var(--font-regular);
+  --font-badge: var(--font-weight-normal) 10px/1.1 var(--font-regular);
+  --font-caption: 11px/1 var(--font-mono-semibold);
+
+  --font-size-title-base: 80;
+  --font-size-title-mobile-scalable: calc(var(--font-size-title-base) / 760 * var(--window-width));
+  --font-size-title-tablet-scalable: calc(var(--font-size-title-base) / 940 * var(--window-width));
+  --font-size-title-desktop-scalable: calc(var(--font-size-title-base) / 1120 * var(--window-width));
+  --font-size-title-desktopXL-scalable: calc(var(--font-size-title-base) / 1300 * var(--window-width));
+  --font-size-title-desktopXXL-scalable: calc(var(--font-size-title-base) / var(--max-width-base) * var(--window-width));
+  --font-size-title-scalable: var(--font-size-title-mobile-scalable);
+
+  --font-size-subtitle-base: 48;
+  --font-size-subtitle-mobile-scalable: calc(var(--font-size-subtitle-base) / 760 * var(--window-width));
+  --font-size-subtitle-tablet-scalable: calc(var(--font-size-subtitle-base) / 940 * var(--window-width));
+  --font-size-subtitle-desktop-scalable: calc(var(--font-size-subtitle-base) / 1120 * var(--window-width));
+  --font-size-subtitle-desktopXL-scalable: calc(var(--font-size-subtitle-base) / 1300 * var(--window-width));
+  --font-size-subtitle-desktopXXL-scalable: calc(var(--font-size-subtitle-base) / var(--max-width-base) * var(--window-width));
+  --font-size-subtitle-scalable: var(--font-size-subtitle-mobile-scalable);
+
+  --font-size-marquee-base: 122;
+  --font-size-marquee-mobile-scalable: calc(var(--font-size-marquee-base) / 760 * var(--window-width));
+  --font-size-marquee-tablet-scalable: calc(var(--font-size-marquee-base) / 940 * var(--window-width));
+  --font-size-marquee-desktop-scalable: calc(var(--font-size-marquee-base) / 1120 * var(--window-width));
+  --font-size-marquee-desktopXL-scalable: calc(var(--font-size-marquee-base) / 1300 * var(--window-width));
+  --font-size-marquee-desktopXXL-scalable: calc(var(--font-size-marquee-base) / var(--max-width-base) * var(--window-width));
+  --font-size-marquee-scalable: var(--font-size-marquee-mobile-scalable);
+
+  --font-size-hero-base-mobile: 142;
+  --font-size-hero-base-tablet: 150;
+  --font-size-hero-base-desktop: 180;
+  --font-size-hero-base: 216;
+  --font-size-hero-mobile-scalable: calc(var(--font-size-hero-base-mobile) / 760 * var(--window-width));
+  --font-size-hero-tablet-scalable: calc(var(--font-size-hero-base-tablet) / 940 * var(--window-width));
+  --font-size-hero-desktop-scalable: calc(var(--font-size-hero-base-desktop) / 1120 * var(--window-width));
+  --font-size-hero-desktopXL-scalable: calc(var(--font-size-hero-base) / 1300 * var(--window-width));
+  --font-size-hero-desktopXXL-scalable: calc(var(--font-size-hero-base) / var(--max-width-base) * var(--window-width));
+  --font-size-hero-scalable: var(--font-size-hero-mobile-scalable);
+
+  --letter-spacing-body: -0.01em;
+
+  /* Animations */
+  --ease-out: cubic-bezier(0.33,1,0.68,1);
+  --ease-in-out: cubic-bezier(0.65,0,0.35,1);
+
+  /* Breakpoints */
+  @media only screen and (min-width: 760px) {
+    --font-size-title-scalable:var(--font-size-title-tablet-scalable);
+    --font-size-subtitle-scalable: var(--font-size-subtitle-tablet-scalable);
+    --font-size-marquee-scalable: var(--font-size-marquee-tablet-scalable);
+    --font-body: var(--font-weight-normal) 16px/1.2 var(--font-regular);
+    --font-badge: var(--font-weight-normal) 16px/1.1 var(--font-regular);
+    --font-caption: 12px/1 var(--font-mono-semibold);
+    --font-size-hero-scalable:var(--font-size-hero-tablet-scalable);
+    --grid-column-count: 10;
+  }
+
+  @media only screen and (min-width: 940px) {
+    --font-size-title-scalable:var(--font-size-title-desktop-scalable);
+    --font-size-subtitle-scalable: var(--font-size-subtitle-desktop-scalable);
+    --font-size-marquee-scalable: var(--font-size-marquee-desktop-scalable);
+    --font-body: var(--font-weight-normal) 18px/1.2 var(--font-regular);
+    --font-caption: 14px/1 var(--font-mono-semibold);
+    --font-size-hero-scalable:var(--font-size-hero-desktop-scalable);
+    --grid-column-count: 12;
+  }
+
+  @media only screen and (min-width: 1120px) {
+    --font-size-title-scalable:var(--font-size-title-desktopXL-scalable);
+    --font-size-subtitle-scalable: var(--font-size-subtitle-desktopXL-scalable);
+    --font-size-marquee-scalable: var(--font-size-marquee-desktopXL-scalable);
+    --font-size-hero-scalable:var(--font-size-hero-desktopXL-scalable);
+    --grid-column-count: 14;
+  }
+
+  @media only screen and (min-width: 1300px) {
+    --font-size-title-scalable:var(--font-size-title-desktopXXL-scalable);
+    --font-size-subtitle-scalable: var( --font-size-subtitle-desktopXXL-scalable );
+    --font-size-marquee-scalable: var(--font-size-marquee-desktopXXL-scalable);
+    --font-size-hero-scalable:var(--font-size-hero-desktopXXL-scalable);
+    --grid-column-count: 16;
+  }
+
+  @media only screen and (min-width: 1480px) {
+    --font-size-title-scalable:calc(var(--font-size-title-base) * 1px);
+    --font-size-subtitle-scalable: calc(var(--font-size-subtitle-base) * 1px);
+    --font-size-marquee-scalable: calc(var(--font-size-marquee-base) * 1px);
+    --font-size-hero-scalable:calc(var(--font-size-hero-base) * 1px);
+    --grid-column-count: 16;
+    --grid-column-width: calc(var(--grid-column-width-base) * 1px);
+  }
+
+  @media only screen and (min-width: 1620px) {
+    --grid-column-count: 18;
+  }
+
+  @media only screen and (min-width: 1760px) {
+    --grid-column-count: 20;
+  }
+
+  @media only screen and (min-width: 1900px) {
+    --grid-column-count: 22;
+  }
+
+  @media only screen and (min-width: 2040px) {
+    --grid-column-count: 24;
+  }
+
+  @media only screen and (min-width: 2180px) {
+    --grid-column-count: 26;
+  }
+
+  @media only screen and (min-width: 2340px) {
+    --grid-column-count: 28;
+  }
+
+  @media only screen and (min-width: 2480px) {
+    --grid-column-count: 30;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
+}
+
+*,:after,:before {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  color: rgb(var(--foreground-rgb));
+  font-family: var(--font-regular);
+  background-color: var(--color-white-primary);
+  position: relative;
+}
+
+html {
+  text-size-adjust: none;
+  scroll-behavior: smooth;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+body,html {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  line-height: 1;
+}
+
+h3 {
+  font: var(--font-weight-normal) var(--font-size-subtitle-scalable) /1.04 var(--font-regular) !important;
+  letter-spacing: -0.05em;
+}
+
+b {
+  font-family: var(--font-bold);
+}
+
+i {
+  font-family: var(--font-italics);
+}
+
+a,button {
+  cursor: revert;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+menu,ol,summary,ul {
+  list-style: none;
+}
+
+img {
+  max-inline-size: 100%;
+  max-block-size: 100%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+input,textarea {
+  -webkit-user-select: auto;
+}
+
+textarea {
+  white-space: revert;
+}
+
+::selection {
+  color: var(--pulse-color,lightpink);
+  background: var(--color-black-primary)
+}
+
+.wave-container {
+  position: fixed;
+  bottom: 50%;
+  transform: translateY(50%);
+  z-index: 0;
+  width: 100vw;
+
+  @media screen and (max-width: 500px) {
+    width: 250vw;
+    left: -20%;
+  }
+
+  img {
+    width: 100%;
+    object-fit: cover;
+    filter: blur(var(--img-blur));
+    opacity: var(--img-opacity);
+    position: relative;
+    z-index: -1;
+  }
+}
+
+.link-under {
+  color: inherit;
+  position: relative;
+  max-width: max-content;
+
+  &:hover {
+    color: inherit;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 1px;
+    bottom: -2px;
+    left: 0;
+    background-color: var(--color-black-primary);
+    transform: scaleX(1);
+    transform-origin: top right;
+    transition: transform 0.4s ease;
+  }
+
+  &:hover::before {
+    transform: scaleX(0);
+  }
+}

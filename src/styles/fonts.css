@@ -1,0 +1,149 @@
+@font-face {
+  font-family: 'sohneregular';
+  src: url('./../fonts/sohne-buch-webfont.woff2') format('woff2'),
+       url('./../fonts/sohne-buch-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sohnekursiv';
+  src: url('./../fonts/sohne-buchkursiv-webfont.woff2') format('woff2'),
+       url('./../fonts/sohne-buchkursiv-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sohnebold';
+  src: url('./../fonts/sohne-dreiviertelfett-webfont.woff2') format('woff2'),
+       url('./../fonts/sohne-dreiviertelfett-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sohnebold_kursiv';
+  src: url('./../fonts/sohne-dreiviertelfettkursiv-webfont.woff2') format('woff2'),
+       url('./../fonts/sohne-dreiviertelfettkursiv-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sohneextrafett';
+  src: url('./../fonts/sohne-extrafett-webfont.woff2') format('woff2'),
+       url('./../fonts/sohne-extrafett-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sohneextrafett_kursiv';
+  src: url('./../fonts/sohne-extrafettkursiv-webfont.woff2') format('woff2'),
+       url('./../fonts/sohne-extrafettkursiv-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sohneextraleicht';
+  src: url('./../fonts/sohne-extraleicht-webfont.woff2') format('woff2'),
+       url('./../fonts/sohne-extraleicht-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sohneextraleicht_kursiv';
+  src: url('./../fonts/sohne-extraleichtkursiv-webfont.woff2') format('woff2'),
+       url('./../fonts/sohne-extraleichtkursiv-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sohnefett';
+  src: url('./../fonts/sohne-fett-webfont.woff2') format('woff2'),
+       url('./../fonts/sohne-fett-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'sohnefett_kursiv';
+  src: url('./../fonts/sohne-fettkursiv-webfont.woff2') format('woff2'),
+       url('./../fonts/sohne-fettkursiv-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sohnehalbfett';
+  src: url('./../fonts/sohne-halbfett-webfont.woff2') format('woff2'),
+       url('./../fonts/sohne-halbfett-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sohnehalbfett_kursiv';
+  src: url('./../fonts/sohne-halbfettkursiv-webfont.woff2') format('woff2'),
+       url('./../fonts/sohne-halbfettkursiv-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'sohnekrftig';
+  src: url('./../fonts/sohne-kraftig-webfont.woff2') format('woff2'),
+       url('./../fonts/sohne-kraftig-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sohnekrftig_kursiv';
+  src: url('./../fonts/sohne-kraftigkursiv-webfont.woff2') format('woff2'),
+       url('./../fonts/sohne-kraftigkursiv-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sohneleicht';
+  src: url('./../fonts/sohne-leicht-webfont.woff2') format('woff2'),
+       url('./../fonts/sohne-leicht-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sohneleicht_kursiv';
+  src: url('./../fonts/sohne-leichtkursiv-webfont.woff2') format('woff2'),
+       url('./../fonts/sohne-leichtkursiv-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sohne_monoregular';
+  src: url('./../fonts/sohnemono-buch-webfont.woff2') format('woff2'),
+       url('./../fonts/sohnemono-buch-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sohne_monokrftig';
+  src: url('./../fonts/sohnemono-kraftig-webfont.woff2') format('woff2'),
+       url('./../fonts/sohnemono-kraftig-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: 'shone_monohalbfett';
+  src: url('./../fonts/sohnemono-halbfett-webfont.woff2') format('woff2'),
+       url('./../fonts/sohnemono-halbfett-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+} */

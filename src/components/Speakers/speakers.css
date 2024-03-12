@@ -1,0 +1,339 @@
+.speakers-container {
+  position: relative;
+  width: 100%;
+  max-width: var(--max-width);
+  margin: calc(1 * var(--grid-column-width)) auto 0;
+  padding-inline: var(--grid-gutter-width);
+  display: grid;
+  grid-template-rows: repeat(2, var(--grid-column-width));
+  @media screen and (max-width: 760px) {
+    grid-template-rows: repeat(5, var(--grid-column-width));
+  }
+  column-gap: var(--grid-column-width);
+
+  .speakers-container-title {
+    position: relative;
+    grid-row: 1 / span 4;
+
+    @media screen and (max-width: 900px) {
+      grid-row: 1 / span 2;
+    }
+
+    .section-title div {
+      &:first-child {
+        width: calc(3 * var(--grid-column-width));
+        position: relative;
+
+        &::before {
+          content: "";
+          width: var(--grid-column-width);
+          height: var(--grid-column-width);
+          background-color: var(--color-black-primary);
+          position: absolute;
+          right: calc(var(--grid-column-width) * -2);
+          top: 0;
+        }
+      }
+
+      &:nth-child(2) {
+        margin-left: var(--grid-column-width);
+        width: calc(3 * var(--grid-column-width));
+      }
+    }
+  }
+
+  .speakers-container-description {
+    position: relative;
+    grid-row: 1 / span 4;
+    max-width: calc(7 * var(--grid-column-width));
+    align-self: end;
+    justify-self: end;
+    font: var(--font-body);
+
+    @media screen and (max-width: 900px) {
+      max-width: calc(6 * var(--grid-column-width));
+      height: calc(1 * var(--grid-column-width));
+      grid-row: 3 / span 2;
+      margin-bottom: 0;
+    }
+
+    @media screen and (max-width: 600px) {
+      grid-row: 6 / span 2;
+    }
+
+    p {
+      line-height: 1.2;
+    }
+  }
+}
+
+.speakers-list {
+  position: relative;
+  width: 100%;
+  max-width: var(--max-width);
+  margin: calc(2 * var(--grid-column-width)) auto 0;
+  padding-inline: var(--grid-gutter-width);
+  display: grid;
+  @media screen and (min-width: 760px) {
+    display: none;
+  }
+
+  .speakers-list-card {
+    height: calc(4 * var(--grid-column-width));
+    width: 100%;
+    padding: var(--space-16);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-8);
+    background-color: var(--color-white-primary);
+    outline: 1px solid var(--color-black-primary);
+    border-radius: var(--space-8);
+    overflow: hidden;
+
+    .speakers-list-card-info {
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+
+    .speakers-list-card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-4);
+      font: var(--font-badge);
+
+      p,
+      a {
+        display: flex;
+        align-items: center;
+        gap: var(--space-4);
+        padding: 2px var(--space-8);
+        border: 1px solid var(--color-black-primary);
+        border-radius: 32px;
+        text-transform: uppercase;
+        margin-block: auto;
+
+        span {
+          &.live {
+            width: var(--space-8);
+            height: var(--space-8);
+            background-color: var(--color-black-primary);
+            border-radius: 50%;
+          }
+        }
+      }
+
+      svg {
+        width: 14px;
+        @media screen and (max-width: 760px) {
+          width: 10px;
+        }
+        height: auto;
+      }
+    }
+
+    .speakers-list-card-photo {
+      position: relative;
+      display: flex;
+      align-items: center;
+      max-width: 150px;
+      @media screen and (max-width: 400px) {
+        max-width: 130px;
+      }
+      border-radius: 50%;
+
+      img {
+        border-radius: 50%;
+        border: 1px solid var(--color-black-primary);
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 10;
+        width: 100%;
+        max-width: 150px;
+        @media screen and (max-width: 400px) {
+          max-width: 130px;
+        }
+        height: 100%;
+        border-radius: 50%;
+        background: rgb(252, 173, 107, 0.1);
+        background: linear-gradient(
+          45deg,
+          rgba(227, 128, 225, 0.35) 0%,
+          rgba(244, 158, 145, 0.15) 23%,
+          rgba(243, 156, 149, 0) 44%,
+          rgba(240, 150, 167, 0) 51%,
+          rgba(232, 137, 201, 0.15) 76%,
+          rgba(230, 133, 211, 0.15) 86%,
+          rgba(243, 156, 149, 0.35) 100%
+        );
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.7s ease;
+      }
+
+      &:hover {
+        &::before {
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+    }
+  }
+}
+
+.speakers-carousel {
+  position: relative;
+  width: 100%;
+  max-width: var(--max-width);
+  margin: calc(1 * var(--grid-column-width)) auto 0;
+  padding-inline: var(--grid-gutter-width);
+  display: flex;
+  align-items: center;
+  gap: calc(0.25 * var(--grid-column-width));
+  @media screen and (max-width: 759px) {
+    display: none;
+  }
+
+  .speakers-carousel-card {
+    position: relative;
+    /* height: calc(8 * var(--grid-column-width)); */
+    @media screen and (min-width: 760px) {
+      width: calc(0.25 * var(--grid-column-width));
+    }
+    @media screen and (min-width: 950px) {
+      width: calc(0.5 * var(--grid-column-width));
+    }
+    @media screen and (min-width: 1120px) {
+      width: calc(1 * var(--grid-column-width));
+    }
+    background-color: var(--color-white-primary);
+    outline: 1px solid var(--color-black-primary);
+    border-radius: var(--space-8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-44) var(--space-24) var(--space-24);
+    transition: all 0.7s ease;
+
+    &.active {
+      width: calc(6 * var(--grid-column-width));
+      opacity: 1;
+
+      .speakers-carousel-card-photo {
+        &::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          z-index: 10;
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          background: rgb(252, 173, 107, 0.1);
+          background: linear-gradient(
+            45deg,
+            rgba(201, 128, 227, 0.55) 0%,
+            rgba(244, 158, 145, 0.25) 23%,
+            rgba(243, 156, 149, 0) 44%,
+            rgba(240, 150, 167, 0) 51%,
+            rgba(232, 137, 201, 0.25) 76%,
+            rgba(230, 133, 211, 0.25) 86%,
+            rgba(243, 156, 149, 0.55) 100%
+          );
+        }
+      }
+    }
+
+    &.hidden {
+      width: 0px;
+      display: none;
+      opacity: 0;
+    }
+
+    &.inactive {
+      p,
+      h3,
+      a,
+      img {
+        opacity: 0;
+      }
+    }
+
+    .speakers-carousel-card-linkedin {
+      position: absolute;
+      display: flex;
+      top: var(--space-16);
+      right: var(--space-16);
+      padding: var(--space-8);
+      border: 1px solid var(--color-black-primary);
+      border-radius: 50%;
+      transition: all 0.5 ease;
+
+      &:hover {
+        border: 1px solid var(--color-white-primary);
+        background-color: var(--color-black-primary);
+      }
+    }
+
+    .speakers-carousel-card-title {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-8);
+    }
+
+    .speakers-carousel-card-tags {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-4);
+      font: var(--font-badge);
+
+      p,
+      a {
+        display: flex;
+        align-items: center;
+        gap: var(--space-4);
+        padding: 2px var(--space-8);
+        border: 1px solid var(--color-black-primary);
+        border-radius: 32px;
+        text-transform: uppercase;
+        margin-block: auto;
+
+        span {
+          &.live {
+            width: var(--space-8);
+            height: var(--space-8);
+            background-color: var(--color-black-primary);
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+
+    .speakers-carousel-card-photo {
+      position: relative;
+      width: 100%;
+      display: flex;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        border-radius: 50%;
+        border: 1px solid var(--color-black-primary);
+      }
+    }
+  }
+}

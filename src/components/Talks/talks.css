@@ -1,0 +1,157 @@
+.talks-container {
+  position: relative;
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding-inline: var(--grid-gutter-width);
+  display: flex;
+
+  @media screen and (max-width: 940px) {
+    flex-direction: column;
+  }
+}
+
+.talks-title {
+  width: 100%;
+  position: sticky;
+  top: calc(var(--grid-column-width) + var(--grid-gutter-width));
+  min-width: calc(var(--grid-column-count) / 2);
+  height: calc(8 * var(--grid-column-width));
+  border: 1px solid var(--color-black-primary);
+  padding: calc(2 * var(--grid-column-width)) 3px 0;
+  border-radius: var(--space-8);
+
+  @media screen and (max-width: 940px) {
+    height: calc(10 * var(--grid-column-width));
+    padding: calc(var(--grid-column-width)) 3px calc(2 * var(--grid-column-width));
+  }
+
+  &::before {
+    content:"";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: var(--color-white-primary) 3px solid;
+    border-radius: var(--space-8);
+    position: absolute;
+}
+
+  .section-title {
+    & div:nth-child(1) {
+      min-width: calc(3 * var(--grid-column-width) - 4px);
+    }
+
+    & div:nth-child(2) {
+      margin-left: calc(var(--grid-column-width) - 4px);
+      min-width: calc(3 * var(--grid-column-width));
+    }
+  }
+}
+
+.talks-cards {
+  width: 100%;
+  min-width: calc(var(--grid-column-count) / 2);
+  
+  .talks-card {
+    position: sticky;
+    height: calc(var(--grid-column-width) * 5);
+    @media screen and (max-width: 500px) {
+      height: calc(8 * var(--grid-column-width));
+    }
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--grid-column-width) / 4);
+    padding: var(--space-24);
+    background-color: var(--color-white-primary);
+    border: 1px solid var(--color-black-primary);
+    border-radius: var(--space-8);
+
+      &:nth-child(1) {
+        top: calc(0px + var(--grid-column-width) + var(--grid-gutter-width));
+      }
+    
+      &:nth-child(2) {
+        top: calc(20px + var(--grid-column-width) + var(--grid-gutter-width));
+      }
+    
+      &:nth-child(3) {
+        top: calc(40px + var(--grid-column-width) + var(--grid-gutter-width));
+      }
+    
+      &:nth-child(4) {
+        top: calc(60px + var(--grid-column-width) + var(--grid-gutter-width));
+      }
+    
+      &:nth-child(5) {
+        top: calc(80px + var(--grid-column-width) + var(--grid-gutter-width));
+      }
+    
+      &:nth-child(6) {
+        top: calc(100px + var(--grid-column-width) + var(--grid-gutter-width));
+      }
+    
+      &:nth-child(7) {
+        top: calc(120px + var(--grid-column-width) + var(--grid-gutter-width));
+      }
+    
+      &:nth-child(8) {
+        top: calc(140px + var(--grid-column-width) + var(--grid-gutter-width));
+      }
+
+    @media screen and (max-width: 940px) {
+      &:nth-child(1) {
+        top: calc(0px + var(--grid-column-width) * 5 + var(--grid-gutter-width));
+      }
+    
+      &:nth-child(2) {
+        top: calc(20px + var(--grid-column-width) * 5 + var(--grid-gutter-width));
+      }
+    
+      &:nth-child(3) {
+        top: calc(40px + var(--grid-column-width) * 5 + var(--grid-gutter-width));
+      }
+    
+      &:nth-child(4) {
+        top: calc(60px + var(--grid-column-width) * 5 + var(--grid-gutter-width));
+      }
+    
+      &:nth-child(5) {
+        top: calc(80px + var(--grid-column-width) * 5 + var(--grid-gutter-width));
+      }
+    
+      &:nth-child(6) {
+        top: calc(100px + var(--grid-column-width) * 5 + var(--grid-gutter-width));
+      }
+    
+      &:nth-child(7) {
+        top: calc(120px + var(--grid-column-width) * 5 + var(--grid-gutter-width));
+      }
+    
+      &:nth-child(8) {
+        top: calc(140px + var(--grid-column-width) * 5 + var(--grid-gutter-width));
+      }
+    }
+
+    h3 {
+      font: var(--font-weight-normal) var(--font-size-subtitle-scalable) /1.02 var(--font-regular);
+      letter-spacing: -0.03em;
+      max-width: 80%;
+    }
+
+    .talks-card-tags {
+      margin-top: auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-4);
+      font: var(--font-badge);
+
+      p {
+        padding: 1px var(--space-8);
+        border: 1px solid var(--color-black-primary);
+        border-radius: 32px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

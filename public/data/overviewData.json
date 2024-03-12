@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Exchange strategies for growth",
+    "description": "Executives from leading companies in every industry attend Sessions to discuss new ways to maximize revenue and reduce costs.",
+    "icon": "bubble",
+    "active": false
+  },
+  {
+    "title": "Get answers to your product questions",
+    "description": "Our product and engineering teams will be on-site to answer any questions you might have about Stripe products and services.",
+    "icon": "globe",
+    "active": false
+  },
+  {
+    "title": "Enjoy the experience",
+    "description": "For business and tech leaders alike, Sessions is designed to engage, energize, and spark new ideas.",
+    "icon": "world",
+    "active": false
+  },
+  {
+    "title": "Stay at the forefront of commerce trends",
+    "description": "Sessions is where we share new technology and ideas that will shape the future of the internet economy.",
+    "icon": "squares",
+    "active": false
+  }, 
+  {
+    "title": "Enjoy the experience",
+    "description": "For business and tech leaders alike, Sessions is designed to engage, energize, and spark new ideas.",
+    "icon": "world",
+    "active": false
+  },
+  {
+    "title": "Stay at the forefront of commerce trends",
+    "description": "Sessions is where we share new technology and ideas that will shape the future of the internet economy.",
+    "icon": "squares",
+    "active": false
+  },
+  {
+    "title": "Exchange strategies for growth",
+    "description": "Executives from leading companies in every industry attend Sessions to discuss new ways to maximize revenue and reduce costs.",
+    "icon": "bubble",
+    "active": false
+  },
+  {
+    "title": "Get answers to your product questions",
+    "description": "Our product and engineering teams will be on-site to answer any questions you might have about Stripe products and services.",
+    "icon": "globe",
+    "active": false
+  },
+  {
+    "title": "Enjoy the experience",
+    "description": "For business and tech leaders alike, Sessions is designed to engage, energize, and spark new ideas.",
+    "icon": "world",
+    "active": false
+  },
+  {
+    "title": "Stay at the forefront of commerce trends",
+    "description": "Sessions is where we share new technology and ideas that will shape the future of the internet economy.",
+    "icon": "squares",
+    "active": true
+  },
+  {
+    "title": "Exchange strategies for growth",
+    "description": "Executives from leading companies in every industry attend Sessions to discuss new ways to maximize revenue and reduce costs.",
+    "icon": "bubble",
+    "active": false
+  },
+  {
+    "title": "Get answers to your product questions",
+    "description": "Our product and engineering teams will be on-site to answer any questions you might have about Stripe products and services.",
+    "icon": "globe",
+    "active": false
+  },
+  {
+    "title": "Enjoy the experience",
+    "description": "For business and tech leaders alike, Sessions is designed to engage, energize, and spark new ideas.",
+    "icon": "world",
+    "active": false
+  },
+  {
+    "title": "Stay at the forefront of commerce trends",
+    "description": "Sessions is where we share new technology and ideas that will shape the future of the internet economy.",
+    "icon": "squares",
+    "active": false
+  }
+]

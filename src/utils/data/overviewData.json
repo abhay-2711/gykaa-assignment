@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Meet the experts",
+    "description": "Our experts will be on-site to answer any questions you might have about Stripe products and services.",
+    "icon": "world",
+    "active": false
+  },
+  {
+    "title": "Stay at the forefront",
+    "description": "Sessions is where we share new technology and ideas that will shape the future of the internet economy.",
+    "icon": "squares",
+    "active": false
+  },
+  {
+    "title": "Exchange insights with peers",
+    "description": "From launching new business models to unifying customer experiences, discuss ways to maximize revenue and reduce costs.",
+    "icon": "globe",
+    "active": false
+  },
+  {
+    "title": "Deepen your relationships",
+    "description": "Executives from leading companies in every industry attend Sessions.",
+    "icon": "bubble",
+    "active": false
+  },
+  {
+    "title": "Exchange insights with peers",
+    "description": "From launching new business models to unifying customer experiences, discuss ways to maximize revenue and reduce costs.",
+    "icon": "globe",
+    "active": false
+  },
+  {
+    "title": "Deepen your relationships",
+    "description": "Executives from leading companies in every industry attend Sessions.",
+    "icon": "bubble",
+    "active": false
+  },
+  {
+    "title": "Meet the experts",
+    "description": "Our experts will be on-site to answer any questions you might have about Stripe products and services.",
+    "icon": "world",
+    "active": false
+  },
+  {
+    "title": "Stay at the forefront",
+    "description": "Sessions is where we share new technology and ideas that will shape the future of the internet economy.",
+    "icon": "squares",
+    "active": false
+  },
+  {
+    "title": "Exchange insights with peers",
+    "description": "From launching new business models to unifying customer experiences, discuss ways to maximize revenue and reduce costs.",
+    "icon": "globe",
+    "active": false
+  },
+  {
+    "title": "Deepen your relationships",
+    "description": "Executives from leading companies in every industry attend Sessions.",
+    "icon": "bubble",
+    "active": true
+  },
+  {
+    "title": "Meet the experts",
+    "description": "Our experts will be on-site to answer any questions you might have about Stripe products and services.",
+    "icon": "world",
+    "active": false
+  },
+  {
+    "title": "Stay at the forefront",
+    "description": "Sessions is where we share new technology and ideas that will shape the future of the internet economy.",
+    "icon": "squares",
+    "active": false
+  },
+  {
+    "title": "Exchange insights with peers",
+    "description": "From launching new business models to unifying customer experiences, discuss ways to maximize revenue and reduce costs.",
+    "icon": "globe",
+    "active": false
+  },
+  {
+    "title": "Deepen your relationships",
+    "description": "Executives from leading companies in every industry attend Sessions.",
+    "icon": "bubble",
+    "active": false
+  }
+]

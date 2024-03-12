@@ -1,0 +1,80 @@
+[
+  {
+    "day": "23",
+    "month": "April",
+    "activities": [
+      {
+        "title": "Optional training add-ons",
+        "time": "9:00 a.m.–4:00 p.m."
+      },
+      {
+        "title": "Welcome reception",
+        "time": "4:00 p.m.–6:00 p.m."
+      }
+    ]
+  },
+  {
+    "day": "24",
+    "month": "April",
+    "activities": [
+      {
+        "title": "Expo hall",
+        "time": "7:30 a.m.–6:30 p.m."
+      },
+      {
+        "title": "Opening keynote",
+        "time": "9:30 a.m.–10:30 a.m."
+      },
+      {
+        "title": "Enterprise payments keynote",
+        "time": "10:30 a.m.–11:00 a.m."
+      },
+      {
+        "title": "Lunch and networking",
+        "time": "11:00 a.m.–12:30 p.m."
+      },
+      {
+        "title": "Breakout talks",
+        "time": "12:30 p.m.–2:30 p.m."
+      },
+      {
+        "title": "Fireside chat with special guest",
+        "time": "3:00 p.m.–4:00 p.m."
+      },
+      {
+        "title": "Sessions celebration",
+        "time": "4:00 p.m.–6:30 p.m."
+      }
+    ]
+  },
+  {
+    "day": "25",
+    "month": "April",
+    "activities": [
+      {
+        "title": "Expo hall",
+        "time": "7:30 a.m.–6:30 p.m."
+      },
+      {
+        "title": "Future of payments keynote",
+        "time": "7:30 a.m.–6:30 p.m."
+      },
+      {
+        "title": "Fireside chat with special guest",
+        "time": "10:00 a.m.–10:30 a.m."
+      },
+      {
+        "title": "Lunch and networking",
+        "time": "11:00 a.m.–12:30 p.m."
+      },
+      {
+        "title": "Breakout talks",
+        "time": "12:30 p.m.–2:30 p.m."
+      },
+      {
+        "title": "Fireside chat with special guest",
+        "time": "3:00 p.m.–4:00 p.m."
+      }
+    ]
+  }
+]

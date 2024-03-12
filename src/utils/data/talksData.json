@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Opening keynote",
+    "description": "The world’s GDP is almost $100 trillion, yet we’re only scratching the surface of the internet’s potential to remove constraints that hinder growth. Join us as we explore the reinvention of the global economy, from artificial intelligence to real-time payments to infrastructure that rebalances the gravity equation for digital trade.",
+    "tags": []
+  },
+  {
+    "title": "The future of payments",
+    "description": "Join Stripe leadership as we look to the future of payments at a time when major global shifts and breakthrough technological developments show no sign of abating. We’ll discuss what recent developments can tell us about what’s coming next and how we’re working with Stripe users to build payments infrastructure that can support any business model—regardless of evolving customer preferences, emerging payment methods, or world-changing events.",
+    "tags": ["Payments Innovation"]
+  },
+  {
+    "title": "Solving payments problems for growth-minded enterprises",
+    "description": "Payments leaders at large businesses face a growing list of complex challenges. See how Stripe’s core platform solves common payments problems, from cross-border money movement to unified customer experiences to incremental auth rate improvement.",
+    "tags": []
+  },
+  {
+    "title": "Payments breakouts",
+    "description": "Learn how the world’s most innovative businesses are using payments as a profit center, and see what’s on our roadmap to help you lower costs and grow revenue. More information coming soon.",
+    "tags": []
+  },
+  {
+    "title": "Platforms breakouts",
+    "description": "See what we’ve learned from 12 years and 12,000 platforms running on Stripe—from monetizing payments to managing risk—and find out what we’re launching next. More information coming soon.",
+    "tags": []
+  },
+  {
+    "title": "Finance teams breakouts",
+    "description": "Learn how automation and faster insights are reshaping the future for tax, billing, and accounting professionals, and see what we’re building to give you more speed, more flexibility to experiment, and more time to focus on growth. More information coming soon.",
+    "tags": []
+  },
+  {
+    "title": "Enterprise breakouts",
+    "description": "Learn how the right technology can enable enterprise transformation through new business models, global expansion, and streamlined operations—and hear directly from leading brands that have done it with Stripe. More information coming soon.",
+    "tags": []
+  },
+  {
+    "title": "Developer breakouts",
+    "description": "Stay at the forefront as Stripe engineers cover the latest developer trends and product updates, and hear from those who deploy Stripe at scale. More information coming soon.",
+    "tags": []
+  },
+  {
+    "title": "Startups breakouts",
+    "description": "Find out how we’re investing in the success of startups at every stage, and hear directly from leading founders and investors on how they’re planning to test, scale, and grow their companies in 2024 and beyond. More information coming soon.",
+    "tags": ["Launching And Scaling", "Global Payments"]
+  }
+]

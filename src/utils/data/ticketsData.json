@@ -1,0 +1,24 @@
+[
+  {
+    "tag": "Pre-Conference Training",
+    "price": "$399",
+    "title": "Payment operations analyst training and certification",
+    "activities": [
+      "Full-day instructor-led course", "In-person with Stripe experts", "Lunch and special swag included", "Pre-requisites: None"
+    ],
+    "marquee": [
+      "Fighting fraud", "Optimizing costs for cost+ users", "Payment optimization and conversion funnel", "Building a dispute strategy"
+    ]
+  },
+  {
+    "tag": "Pre-Conference Training",
+    "price": "$399",
+    "title": "Developer tools training and certification prep",
+    "activities": [
+      "Full-day instructor-led course", "In-person with Stripe experts", "Lunch and special swag included", "Pre-requisites: Previous experience building web apps"
+    ],
+    "marquee": [
+      "API fundamentals", "Webhooks & Stripe CLI", "Moving fast with no code", "Associate Developer coding challenge prep", "Stripe Workbench & Apps"
+    ]
+  }
+]

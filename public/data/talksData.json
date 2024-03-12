@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Opening keynote",
+    "description": "The world’s GDP is almost $100 trillion, yet we’re only scratching the surface of the internet’s potential to remove constraints that hinder growth. Join us as we explore the reinvention of the global economy, from artificial intelligence to real-time payments to infrastructure that rebalances the gravity equation for digital trade.",
+    "tags": ["Keynote", "All Audiences"]
+  },
+  {
+    "title": "Solving payments problems for growth-minded enterprises",
+    "description": "From checkout enhancement to auth rate improvement, payments teams working on performance optimization have a growing list of tactics and tradeoffs to explore. Learn how a group of trailblazing Stripe users are identifying, implementing, and iterating on strategies for their business and get new ideas for your own.",
+    "tags": ["Keynote",  "Payments"]
+  },
+  {
+    "title": "A conversation with NVIDIA’s Jensen Huang",
+    "description": "Jensen Huang, Founder, President and CEO of NVIDIA will join Stripe Cofounder and CEO Patrick Collison on stage for a fireside chat on leadership in the age of AI.",
+    "tags": ["Fireside chat", "All Audiences"]
+  },
+  {
+    "title": "The future of payments",
+    "description": "The global economy is in a transitional period, marked by breakthrough technological developments and legacy companies embracing the internet in creative ways. But what does this mean for payments? Hear our predictions for how technology will evolve in response.",
+    "tags": ["Keynote", "All Audiences"]
+  },
+  {
+    "title": "A conversation with Lawrence H. Summers",
+    "description": "Lawrence H. Summers, Professor Emeritus of Harvard University, former Chief Economist of the World Bank, and former Secretary of the Treasury, will join Stripe Cofounder and President John Collison to discuss global economic trends, technological advancements and policy, and the challenges faced by the financial sector.",
+    "tags": ["Fireside chat", "All Audiences"]
+  },
+  {
+    "title": "Opening keynote",
+    "description": "The world’s GDP is almost $100 trillion, yet we’re only scratching the surface of the internet’s potential to remove constraints that hinder growth. Join us as we explore the reinvention of the global economy, from artificial intelligence to real-time payments to infrastructure that rebalances the gravity equation for digital trade.",
+    "tags": ["Keynote", "All Audiences"]
+  },
+  {
+    "title": "Solving payments problems for growth-minded enterprises",
+    "description": "From checkout enhancement to auth rate improvement, payments teams working on performance optimization have a growing list of tactics and tradeoffs to explore. Learn how a group of trailblazing Stripe users are identifying, implementing, and iterating on strategies for their business and get new ideas for your own.",
+    "tags": ["Keynote",  "Payments"]
+  },
+  {
+    "title": "A conversation with NVIDIA’s Jensen Huang",
+    "description": "Jensen Huang, Founder, President and CEO of NVIDIA will join Stripe Cofounder and CEO Patrick Collison on stage for a fireside chat on leadership in the age of AI.",
+    "tags": ["Fireside chat", "All Audiences"]
+  },
+  {
+    "title": "The future of payments",
+    "description": "The global economy is in a transitional period, marked by breakthrough technological developments and legacy companies embracing the internet in creative ways. But what does this mean for payments? Hear our predictions for how technology will evolve in response.",
+    "tags": ["Keynote", "All Audiences"]
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "company": "Anthropic",
+    "linkedin": "https://www.linkedin.com/in/daniela-amodei-790bb22a/",
+    "name": "Daniela Amodei",
+    "jobtitle": "President and Cofounder",
+    "photo": "https://images.ctfassets.net/3njn2qm7rrbs/1ImSRuSdVsM20EDjJ3TH42/2160a0f1eeafb2b7973af5c66a7e3bdc/Daniela_Anthropic.jpg?w=640&q=75",
+    "active": false,
+    "id": 1
+  },
+  {
+    "company": "PGA of America",
+    "linkedin": "https://www.linkedin.com/in/georgewhitaker/",
+    "name": "George Whitaker",
+    "jobtitle": "Senior Director, Enterprise Technology",
+    "photo": "https://images.ctfassets.net/3njn2qm7rrbs/5gmsIvOvVsNkaiPEKAwAen/d0c57bb7c4bd3256989cabbfcfe730bd/George_PGA.jpg?w=640&q=75",
+    "active": false,
+    "id": 2
+  },
+  {
+    "company": "Wiley",
+    "linkedin": "https://www.linkedin.com/in/brendangualdoni/",
+    "name": "Brendan Gualdoni",
+    "jobtitle": "Head of Digital Commerce Platforms",
+    "photo": "https://images.ctfassets.net/3njn2qm7rrbs/7IpiG8SXbduuM9S06nTPUi/9061cdd2a0f62fb97e2f238fee49a9d5/Brendan_Wiley.jpg?w=640&q=75",
+    "active": false,
+    "id": 3
+  },
+  {
+    "company": "Xero",
+    "linkedin": "https://www.linkedin.com/in/leighoneill1/",
+    "name": "Leigh O’Neill",
+    "jobtitle": "General Manager, Money",
+    "photo": "https://images.ctfassets.net/3njn2qm7rrbs/3Fdnnw5E7mgW7GlHjC83cq/26dbecbb125831d224d0f05f8b644800/Leight_Xero.jpg?w=640&q=75",
+    "active": false,
+    "id": 4
+  },
+  {
+    "company": "Kajabi",
+    "linkedin": "https://www.linkedin.com/in/stephanie-visessung/",
+    "name": "Stephanie Visessung",
+    "jobtitle": "Head of Commerce",
+    "photo": "https://images.ctfassets.net/3njn2qm7rrbs/qJGFM0ruIq7546Q5w6Rpf/b1782f64f6e597e5da9edaa523d1926c/Stephanie_Kajabi.jpg?w=640&q=75",
+    "active": false,
+    "id": 5
+  },
+  {
+    "company": "Squarespace",
+    "linkedin": "https://www.linkedin.com/in/danchandre/",
+    "name": "Dan Chandre",
+    "jobtitle": "Head of Acuity and Payments",
+    "photo": "https://images.ctfassets.net/3njn2qm7rrbs/7ybVXuCPJCQE9tID3KkVZp/0f33ae56a102a5525213c40c5ed6e361/Dan_Chandre.jpg?w=640&q=75",
+    "active": false,
+    "id": 6
+  },
+  {
+    "company": "Sotheby's",
+    "linkedin": "https://www.linkedin.com/in/anu-ramanathan-982416/",
+    "name": "Anu Ramanathan",
+    "jobtitle": "SVP, Head of Product and Design",
+    "photo": "https://images.ctfassets.net/3njn2qm7rrbs/59zc6vKMBNzExjYBTfUtpy/791fadc21bec8a51170aa8e9092dc819/Anu_Sothebys.jpg?w=640&q=75",
+    "active": false,
+    "id": 7
+  },
+  {
+    "company": "Nvidia",
+    "linkedin": "https://www.linkedin.com/in/jenhsunhuang/",
+    "name": "Jensen Huang",
+    "jobtitle": "Founder, President and CEO",
+    "photo": "https://images.ctfassets.net/3njn2qm7rrbs/1jSLcHJyezksRZkrty5v6y/759ed3aa9647bafa9516ec54c5e746a3/jensen-huang.jpg?w=640&q=75",
+    "active": true,
+    "id": 8
+  },
+  {
+    "company": "Harward University",
+    "linkedin": "https://www.linkedin.com/in/lawrence-h-summers-a2a21a12/",
+    "name": "Lawrence H. Summers",
+    "jobtitle": "Economist, Professor, and President Emeritus",
+    "photo": "https://images.ctfassets.net/3njn2qm7rrbs/2cIZxRet4LXoR349UtHL7o/ba82469b64e9bf8cad0b3ac5935c5895/Lawrence_H._Summers.jpg?w=640&q=75",
+    "active": false,
+    "id": 9
+  },
+  {
+    "company": "Stripe",
+    "linkedin": "https://www.linkedin.com/in/patrickcollison/",
+    "name": "Patrick Collison",
+    "jobtitle": "Cofounder and CEO",
+    "photo": "https://images.ctfassets.net/3njn2qm7rrbs/2llHJObk3e3w5hUL3Aix6B/87eafa433805fcb7f64e682b15111adc/Patrick_Stripe.jpg?w=640&q=75",
+    "active": false,
+    "id": 10
+  },
+  {
+    "company": "Stripe",
+    "linkedin": "https://www.linkedin.com/in/johnbcollison/",
+    "name": "John Collison",
+    "jobtitle": "Cofounder and President",
+    "photo": "https://images.ctfassets.net/3njn2qm7rrbs/LSqarUp5dqJnQ5bC7B1cb/5b00b21ae9b5a324a1399df3df2ef700/John_Stripe.jpg?w=640&q=75",
+    "active": false,
+    "id": 11
+  },
+  {
+    "company": "Stripe",
+    "linkedin": "https://www.linkedin.com/in/william-gaybrick-5730347/",
+    "name": "Will Gaybrick",
+    "jobtitle": "President, Product and Business",
+    "photo": "https://images.ctfassets.net/3njn2qm7rrbs/mJ4rHLXGblzRV2J9ljEDX/479492c7f4b704be842b8184b7ce353b/Will_Stripe.jpg?w=640&q=75",
+    "active": false,
+    "id": 12
+  },
+  {
+    "company": "Stripe",
+    "linkedin": "https://www.linkedin.com/in/eileenomara/",
+    "name": "Eileen O’Mara",
+    "jobtitle": "Chief Revenue Officer",
+    "photo": "https://images.ctfassets.net/3njn2qm7rrbs/53d4dDTFZPI2rd91GaCEBG/8e009faec541706a9bc56acea9b6df35/Eileen_Stripe.jpg?w=640&q=75",
+    "active": false,
+    "id": 13
+  },
+  {
+    "company": "Stripe",
+    "linkedin": "https://www.linkedin.com/in/davidpsingleton/",
+    "name": "David Singleton",
+    "jobtitle": "Chief Technology Officer",
+    "photo": "https://images.ctfassets.net/3njn2qm7rrbs/4w4V59raksE6P3izHwyWM/ab7fe4076233f38b164c68ac08e50152/David_Stripe.jpg?w=640&q=75",
+    "active": false,
+    "id": 14
+  },
+  {
+    "company": "Stripe",
+    "linkedin": "https://www.linkedin.com/in/egsands/",
+    "name": "Emily Sands",
+    "jobtitle": "Head of Information",
+    "photo": "https://images.ctfassets.net/3njn2qm7rrbs/1QcBIjO8UKQnK49xyPnMSO/5b8587cc30ffcf6bd4a12d4002d38c68/Emily_Stripe.jpg?w=640&q=75",
+    "active": false,
+    "id": 15
+  },
+  {
+    "company": "Stripe",
+    "linkedin": "https://www.linkedin.com/in/katie-dill-79168b3/",
+    "name": "Katie Dill",
+    "jobtitle": "Head of Design",
+    "photo": "https://images.ctfassets.net/3njn2qm7rrbs/44b2YBlCQ1wO1fJsQ7b3xr/81bae0f847611cb3f2742b35dbdb0db5/Katie_Dill.jpg?w=640&q=75",
+    "active": false,
+    "id": 16
+  }
+]
